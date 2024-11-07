@@ -17,6 +17,7 @@ public class TimeFormat {
 		if (hours >= 12)
 		{
 			ampm = "PM";
+		}
 
 		if (hours > 12)
 		{

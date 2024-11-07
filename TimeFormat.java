@@ -14,7 +14,7 @@ public class TimeFormat {
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
         // system checks if the time should be in AM or PM form
 		String ampm = "AM";
-		if (hours > 12)
+		if (hours >= 12)
 		{
 			ampm = "PM";
 			hours=hours-12;

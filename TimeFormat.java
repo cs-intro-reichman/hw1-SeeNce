@@ -17,6 +17,9 @@ public class TimeFormat {
 		if (hours >= 12)
 		{
 			ampm = "PM";
+
+		if (hours > 12)
+		{
 			hours=hours-12;
 		}
 		// system checks what is the first digit on the minutes and prints with or without zero

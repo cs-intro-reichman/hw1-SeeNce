@@ -12,6 +12,20 @@ public class TimeFormat {
 		int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
 		// Does the same with the minutes part of the input.
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
-        // Replace this comment with the rest of your code
+        // system checks if the time should be in AM or PM form
+		String ampm = "AM";
+		if (hours > 12)
+		{
+			ampm = "PM";
+			hours=hours-12;
+		}
+		// system checks what is the first digit on the minutes and prints with or without zero
+		if((minutes / 10) == 0)
+			System.out.println(hours + ":0" + minutes + " " + ampm);
+				else 
+					System.out.println(hours + ":" + minutes + " " + ampm);
+
+			
+
 	}
 }

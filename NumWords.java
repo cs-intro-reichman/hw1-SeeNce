@@ -6,6 +6,6 @@ public class NumWords {
 		// n gets the last 3 numbers of the entered sum
 		n = Math.floorMod(n, 1000);
 		// system prints num of hundreds, tens, ones
-		System.out.println(n/100 + " hundreds, " + Math.floorMod(n, 100)/10 + " tens, " + Math.floorMod(n, 10) + " ones");
+		System.out.println(n/100 + " hundreds, " + Math.floorMod(n, 100)/10 + " tens, and " + Math.floorMod(n, 10) + " ones");
 	}
 }

@@ -10,7 +10,7 @@ public class Bill3 {
 		// shifting the bill sum from Integer to double
 		double split = (double)bill/3;
 		// system prints all three names and rounded up sum of bill for each diner
-		System.out.println("Dear " + name3 + " " + name2 + " and " + name1 + " pay " + Math.ceil(split) + " Shekels each");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + " pay " + Math.ceil(split) + " Shekels each");
 
 	
 	}
